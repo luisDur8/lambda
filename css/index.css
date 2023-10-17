@@ -1,0 +1,79 @@
+/* ----------- CUSTOM PROPERTIES - GLOBALES ----------- */
+:root {
+  --tipografia: 'Poppins', sans-serif;
+  --claro: #ffffff;
+  --principal: #0B3C5D;
+  --secundario: #328CC1;
+  --detalles: #D9B310;
+  --oscuro: #1D2731;
+}
+
+/* ----------- RESET ----------- */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--tipografia);
+  background-color: var(--principal);
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+/* Estilos del Sitio */
+header {
+  color: var(--claro);
+  background-color: var(--oscuro);
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  margin-left: 5rem;
+}
+
+.navegacion {
+ padding-right: 3rem;
+}
+
+.navegacion a {
+  padding: 1.15rem 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--claro); 
+}
+
+.navegacion a:hover {
+  background-color: var(--claro);
+  color: var(--oscuro);
+}
+
+.navegacion .retoque {
+  background-color: var(--detalles);
+  color: var(--oscuro);
+}
+
